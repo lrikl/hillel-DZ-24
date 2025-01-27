@@ -51,7 +51,7 @@ function validateField(input) {
     const verification = verificationsRegEx[fieldName];
 
     if (fieldName === 'name' && !verification.test(value)) {
-        showError(input, "некоректне ім'я");
+        showError(input, "некоректне ім'я (має містити лише букви алфавіту, та бути більше 1 букви)");
         return false;
     }
 

@@ -8,6 +8,10 @@ body {
     font-size: 14px;
 }
 
+h2, h3 {
+    margin: 0;
+}
+
 .form-wrap {
     display: flex;
     flex-direction: column;
