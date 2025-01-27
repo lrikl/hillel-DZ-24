@@ -51,7 +51,7 @@ function validateField(input) {
     const verification = verificationsRegEx[fieldName];
 
     if (fieldName === 'name' && !verification.test(value)) {
-        showError(input, "надто коротке ім'я");
+        showError(input, "некоректне ім'я");
         return false;
     }
 
